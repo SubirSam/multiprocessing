@@ -27,6 +27,7 @@ public class Main {
             System.out.println(line1);
         }
 
+
         // Capture the output of process 2
         BufferedReader reader2 = new BufferedReader(new InputStreamReader(p1.getInputStream()));
         String line2;
@@ -43,5 +44,6 @@ public class Main {
         p.waitFor();
         p1.waitFor();
         p2.waitFor();
+
     }
 }
