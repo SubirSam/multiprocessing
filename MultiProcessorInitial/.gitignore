@@ -4,6 +4,11 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# Ignore gradle wrapper files
+gradlew
+gradlew.bat
+gradle/wrapper/
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
